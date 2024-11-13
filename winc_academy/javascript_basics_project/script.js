@@ -116,7 +116,7 @@ while (true) {
         profile.first_name = first_Name;
         profile.last_name = last_Name;
     } else {
-        alert("Please enter a valid first and last name.");
+        console.log("Please enter a valid first and last name.");
         continue;
     }
 
@@ -124,7 +124,7 @@ while (true) {
     if (age >= 18) {
         profile.age = age;
     } else {
-        alert("You must be 18 or older.");
+        console.log("You must be 18 or older.");
         continue;
     }
 
@@ -134,7 +134,7 @@ while (true) {
         profile.min_age_interest = minAgeInterest;
         profile.max_age_interest = maxAgeInterest;
     } else {
-        alert("Minimum and maximum age interests must be valid.");
+        console.log("Minimum and maximum age interests must be valid.");
         continue;
     }
 
@@ -142,7 +142,7 @@ while (true) {
     if (["M", "F", "X"].includes(gender)) {
         profile.gender = gender;
     } else {
-        alert("Gender must be M, F, or X.");
+        console.log("Gender must be M, F, or X.");
         continue;
     }
 
@@ -151,7 +151,7 @@ while (true) {
     if (["M", "F", "X"].includes(genderInterest)) {
         profile.gender_interest = genderInterest;
     } else {
-        alert("Gender interest must be M, F, or X.");
+        console.log("Gender interest must be M, F, or X.");
         continue;
     }
 
@@ -159,7 +159,7 @@ while (true) {
     if (["rural", "city"].includes(location)) {
         profile.location = location;
     } else {
-        alert("Location must be either rural or city.");
+        console.log("Location must be either rural or city.");
         continue;
     }
 
